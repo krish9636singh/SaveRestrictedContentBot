@@ -17,7 +17,7 @@ API_HASH = config("API_HASH", default="355877e5f8d9c0294432230aa98b9038")
 BOT_TOKEN = config("BOT_TOKEN", default="5600438522:AAHIxtU7YDeZCKB_o-xucRPi8_63_MTa8z8")
 SESSION = config("SESSION", default="BQB1zSLsKlQDn11-D3CMANay03O2yHnAy-x_9hEFBORi4liEwMTuo-uhkDl1etz09FPyWefKIQxWE_hY5MbGPLWJhppgJqcmLfDKD3UxAMeJfKJOaEE3ft85N6E9DFgggXMr-ySP4S8cVbYVeBWFgcJ162HvZ7I2M2Q4XliKX9MyoQEmocGQlCbKQfp938gJXH_0kMjt3NKk9ZiTpoVt7_ssO1LmTk9921NPTQIBdNz-BeBJ6eqd3V2-mhVZkQpDDnZI26xdNoADMgEotPanrNryoRYYGOZUJ0CLhnLFw2TQIuM7OZzWpx3594oLoy2A66T5nY-IUum66w97DZf5HXcIUHqL3AA")
 FORCESUB = config("FORCESUB", default="allmovieslinkhindi")
-AUTH = config("AUTH", default=-1001300886114, cast=int)
+AUTH = config("AUTH", default=-1300886114, cast=int)
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
